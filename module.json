@@ -1,0 +1,34 @@
+{
+  "id": "the-pools-of-allotar",
+  "title": "The Pools of Allotar",
+  "version": "1.0.0",
+  "manifest": "https://github.com/futurewolf70/the-pools-of-allotar/releases/latest/download/module.json",
+  "download": "https://github.com/futurewolf70/the-pools-of-allotar/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "The module includes the map, actors and items for the Shadowdark RPG adventure, The Pools of Allotar by Jordan Rudd.",
+  "authors": [
+    {
+      "name": "Jordan Rudd",
+      "url": "https://jordanrudd.itch.io/",
+      "discord": "futurewolf_",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "the-pools-of-allotar",
+      "label": "The Pools of Allotar",
+      "path": "packs/the-pools-of-allotar",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "shadowdark",
+      "flags": {}
+    }
+  ]
+}
